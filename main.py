@@ -12,7 +12,7 @@ def main():
         su.append(StringUtility(i))
 
     print("=========== Testing __str__ method ===========")
-    expected_results = ["interesting", "aardvark", "aaa", "aeiouAEIOU", "a b c d e f g h i j k l m n o p q r s t u v w x y z", '']
+    expected_results = ["interesting", "aardvark", "aaa", "aeiouAEIOU", "a b c d e f g h i j k l m n o p q r s t u v w x y z", ''] 
     i = 0
     for s in su:
         result = str(s)
